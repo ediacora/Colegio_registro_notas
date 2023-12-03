@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #181aa3;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: #0005;
+  line-height: 80px;
+  background: #181aa3;
+}
+
+nav ul{
+  float: right;
+  margin: 0;
+  margin-right: 1.9rem;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+}
+
+
+nav ul li:hover{
+  background-color: coral;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.section{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 4%;
+}
+
+.section h1{
+  color: rgb(32, 45, 158);
+  line-height: 50px;
+}
+
+.section p{
+  color: rgb(243, 241, 241);
+}
+
+.btn-1{
+  background-color: orangered;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.features{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.features button{
+  padding: 0.7rem 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+showcase h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#courses{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#courses img{
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  margin: auto;
+}
+
+.apply{
+  margin-top: 4%;
+  background-color: orangered;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+footer{
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 4%;
+}
+
+body{
+  font-family: 'open sans';
+  background: #ffffff;
+}
+.contenedor{
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0;
+  overflow: hidden;
+}
+.titulo{
+  color: #2f3aa8;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+
+}
+header{
+  width: 100%;
+  height: 600px;
+  background: #664ebcc0; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,hsla(197, 100%, 51%, 0.473), hsla(340, 95%, 50%, 0.541)), url(20.jpg); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(189, 100%, 51%, 0.692), hsla(340, 95%, 50%, 0.541)), url(20.jpg);
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+ 
+}
+.menu{
+  text-align: right;
+  padding: 40px 50px 0 0;
+  list-style: none;
+  
+  background-color: #092327;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  
+  
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 63px;
+  display: block;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover{
+ background: #ef8354;
+  
+}
+header .textos-header{
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.textos-header h1{
+  font-size: 50px;
+  color: rgba(216, 238, 20, 0.801);
+}
+.textos-header h2{
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(255, 243, 205);
+}
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.contenedor-sobre-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+}
+.imagen-about-us{
+  width: 48%;
+
+}
+.contenedor-sobre-nosotros .contenido-textos{
+  width: 48%;
+}
+.contenido-textos h3{
+  margin-bottom: 15px;
+}
+.contenido-textos h3 span{
+  background: #4d0686;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  margin-right: 5px;
+
+}
+.contenido-textos p{
+  padding: 0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+/* comienza la tercera seccion*/
+#tercera-seccion{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#titulo>h2{
+text-transform: uppercase;
+text-align: center;
+font-family: 'montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+}
+#titulo>hr{
+  width: 4.5rem;
+  border-color: #44bd32;
+
+}
+#conteiner-tercera-seccion{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.img-tercera{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.img-tercera>h6{
+  text-align: center;
+  font-family: 'montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.img-tercera>p{
+  margin-bottom: 2rem;
+
+}
+.img-tercera>img{
+  max-width: 100%;
+}
+/*termina tercera seccion*/
+/*comienza la cuarta seccion*/
+
+#cuarta-seccion{
+  background: linear-gradient(rgba(123, 167, 192, 0.993), rgba(13, 42, 68, 0.932)),url(2.jpg)no-repeat center/cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+#contenedor{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+
+}
+.mitad{
+  width: 50%;
+
+}
+#cuarta-seccion-der>h3{
+  text-align: uppercase;
+  font-family: 'montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem; 
+}
+#cuarta-seccion-der>hr{
+  width: 4.5rem;
+  border-color: #44bd32;
+  margin-left: 0;
+  margin-bottom: 3rem;
+}
+#cuarta-seccion-der>p{
+  margin-bottom: 4rem;
+  color: #4be06cf1;
+}
+/*termina la cuarta seccion*/
+
+/*empieza la quinta seccion*/
+
+#quinta-seccion{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+}
+#quinta-seccion-izquierda{
+  flex: 1;
+
+}
+#quinta-seccion-izquierda>h3{
+  text-transform: uppercase;
+  font-family: 'montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+
+}
+#quinta-seccion-izquierda>p{
+  margin-bottom: 4rem;
+
+}
+#quinta-seccion-derecha{
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(2.1fr);
+  gap: 15px, 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+#quinta-seccion-derecha>img{
+  max-width: 100%;
+
+}
+#quinta-seccion-derecha>hr{
+  width: 4.5rem;
+  border-color: #44bd32;
+  margin-left: 0;
+  margin-bottom: 3rem;
+
+}
+/*termina la quinta seccion*/
+
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
